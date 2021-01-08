@@ -9,74 +9,87 @@
 
 ## DB 구성
 해당 DB는 3000장의 이미지 파일과 1개의 json 파일로 구성되어 있습니다.
-* 이미지
-    * 이미지(1920x1080)는 총 3000장이며, 고유한 파일이름을 갖습니다.
-* Annotation
-    * 1개의 json 파일에 3000장의 annotation 정보가 저장되어 있습니다.
-    * 이미지 별로 아래와 같이 속성이 정의가 되어있습니다.
-        * "id": 이미지 고유 id
-        * "name": 이미지 파일명
-        * "Objects": 이미지의 instance 별 annotation 정보. "Objects"에는 각 instanse 별로 아래와 같이 정의가 되어있습니다.
+### 파일 구성
+```bash
+OCR_DB
+├── annotations
+│   └── annotations.json
+└── images
+    ├── 0518_S00003.jpg
+    ├── 0518_S00005.jpg
+    └── ...
+```
+
+### 이미지
+* 이미지(1920x1080)는 총 3000장이며, 고유한 파일이름을 갖습니다.
+
+### Annotation
+#### annotation.json
+* 1개의 json 파일에 3000장의 annotation 정보가 저장되어 있습니다.
+* 이미지 별로 아래와 같이 속성이 정의되어 있습니다.
+    * **id**: 이미지 고유 id
+    * **name**: 이미지 파일명
+    * **Objects**: 이미지의 instance 별 annotation 정보. "Objects"에는 각 instanse 별로 아래와 같이 정의가 되어있습니다.
         
-            | **속성** | **속성값** | **info** |
-            |  :---:  |  :---:  |  :---:  | 
-            | "id" | 해당 이미지에서의 instance id | 5 digit number |
-            | "class" | class 이름  | "sign" |
-            | "points" | Polygon 좌표 | [x1, y1, x2, y2, ... , xn, yn] |
-            | "Description" | instance의 글자 정보 | 유니코드 |
-            | "Reading Direction" | 글자 진행 방향 | Horizontal / Vertical |
-            | "Text Direction Index" | 글자 진행 방향 | 0 ~ 7 |
-            | "Art Character" | 타이포그래피 여부 | true / false |
-            | "Special Characters" | 특수문자 여부 | true / false |
-            | "occlusion" | 가려진 글자인지에 대한 정보 | true / false |
-            | "Don't care" | Don't care | true / false |
-    * ```json
-      {
-          "image": [
-              {
-                  "id": "00000",
-                  "name": "0518_S00003.jpg",
-                  "objects": [
-                      {
-                          "id": "00000",
-                          "class": "sign",
-                          "points": [
-                              "1873.10",
-                              "230.58",
-                              "1893.46",
-                              "229.17",
-                              "1900.01",
-                              "232.35",
-                              "1898.59",
-                              "242.44",
-                              "1893.46",
-                              "247.93",
-                              "1869.74",
-                              "250.23"
-                          ],
-                          "Description": "H",
-                          "Reading Direction": "Horizontal",
-                          "Text Direction Index": "0",
-                          "Art Characters": "false",
-                          "Special Characters": "false",
-                          "occlusion": "true",
-                          "Don't Care": "false"
-                      },
-                      {
-                          "id": "00001",
-                          "class": "...",
-                          ...
-                      }
-                  ]
-              },
-              {
-                  ...
-              },
-              ...
-          ]
-      }
-      ```
-## Annotation 상세 사항
+        | **속성** | **속성값** | **info** |
+        |  :---:  |  :---:  |  :---:  | 
+        | "id" | 해당 이미지에서의 instance id | 5 digit number |
+        | "class" | class 이름  | "sign" |
+        | "points" | Polygon 좌표 | [x1, y1, x2, y2, ... , xn, yn] |
+        | "Description" | instance의 글자 정보 | 유니코드 |
+        | "Reading Direction" | 글자 진행 방향 | Horizontal / Vertical |
+        | "Text Direction Index" | 글자 진행 방향 | 0 ~ 7 |
+        | "Art Character" | 타이포그래피 여부 | true / false |
+        | "Special Characters" | 특수문자 여부 | true / false |
+        | "occlusion" | 가려진 글자인지에 대한 정보 | true / false |
+        | "Don't care" | Don't care | true / false |
+* ```json
+    {
+        "image": [
+            {
+                "id": "00000",
+                "name": "0518_S00003.jpg",
+                "objects": [
+                    {
+                        "id": "00000",
+                        "class": "sign",
+                        "points": [
+                            "1873.10",
+                            "230.58",
+                            "1893.46",
+                            "229.17",
+                            "1900.01",
+                            "232.35",
+                            "1898.59",
+                            "242.44",
+                            "1893.46",
+                            "247.93",
+                            "1869.74",
+                            "250.23"
+                        ],
+                        "Description": "H",
+                        "Reading Direction": "Horizontal",
+                        "Text Direction Index": "0",
+                        "Art Characters": "false",
+                        "Special Characters": "false",
+                        "occlusion": "true",
+                        "Don't Care": "false"
+                    },
+                    {
+                        "id": "00001",
+                        "class": "...",
+                        ...
+                    }
+                ]
+            },
+            {
+                ...
+            },
+            ...
+        ]
+    }
+    ```
+#### Annotation 상세 사항
 * Text Direction Index
     * 글자 각도 인덱스 = {0, 1, 2, ..., 7}
     
