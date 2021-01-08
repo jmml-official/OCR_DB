@@ -80,6 +80,4 @@
     |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
     | <p align="center"> <img src="pic/n0.PNG"> </p> | <p align="center"> <img src="pic/n1.PNG"> </p> | <p align="center"> <img src="pic/n2.PNG"> </p> | <p align="center"> <img src="pic/n3.PNG"> </p> | <p align="center"> <img src="pic/n4.PNG"> </p> | <p align="center"> <img src="pic/n5.PNG"> </p> | <p align="center"> <img src="pic/n6.PNG"> </p> | <p align="center"> <img src="pic/n7.PNG"> </p> |
     
-## License
 
-## Citing DB
