@@ -9,6 +9,8 @@
 	* 숫자
 	* 특수문자 (키보드로 입력 가능한 특수문자)
 
+<br/>
+
 ## DB 상세
 * 이미지 파일 : 3000장 (JPG), 1920x1080
 * 어노테이션 파일 : 1개 (JSON)
@@ -99,6 +101,8 @@ OCR_DB
 * 다운로드 [링크](https://drive.google.com/file/d/1AYEpejAB5jd2zi-vWayCQmDkQN-kKrvN/view?usp=sharing) (압축버전)
 * 다운로드 [링크](https://kor01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F11frxzBLp-2_krbjVLSozXXurbmuh40A8%3Fusp%3Dsharing&data=04%7C01%7Cjaemyunglee%40ncsoft.com%7Cfa5107f91fa14d8976cf08d8b2e9ec9f%7C91856527a4464990b48e37ca10f2ee8d%7C0%7C0%7C637456065049643905%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=9hP6MzZwdKSPD0Tk34N2cr3jELakiIYbhhaIiH7bzNw%3D&reserved=0) (미리보기 가능)
 
+<br/>
+
 ## 기여자 (Contributors)
 **Recognition팀, Vision AI Lab, AI Center, NCSOFT**
 * 이영현 (younghyunlee@ncsoft.com)
@@ -108,6 +112,8 @@ OCR_DB
 * 이재명 (jaemyunglee@ncsoft.com)
 * 이주성 (jusunglee@ncsoft.com)
 * 정현조 (hyunjo7905@ncsoft.com)
+
+<br/>
 
 ## 감사의 글 (Acknowledgement)
 이 데이터는 2020년도 정부(과학기술정보통신부)의 재원으로 정보통신기획평가원의 지원을 받아 수행된 연구의 결과물임 (No.1711117050, 디지털 콘텐츠 분석 효율화를 위한 문자 검출 및 인식 기술 개발)
