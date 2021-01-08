@@ -104,7 +104,7 @@ OCR_DB
 <br/>
 
 ## 기여자 (Contributors)
-**Recognition팀, Vision AI Lab, AI Center, NCSOFT**
+**Recognition Team, Vision AI Lab, AI Center, NCSOFT**
 * 이영현 (younghyunlee@ncsoft.com)
 * 김영백 (yback7902@ncsoft.com)
 * 박경민 (gmbgm100@ncsoft.com)
