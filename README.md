@@ -98,8 +98,8 @@ OCR_DB
 	| <p align="center"> <img src="pic/n0.PNG"> </p> | <p align="center"> <img src="pic/n1.PNG"> </p> | <p align="center"> <img src="pic/n2.PNG"> </p> | <p align="center"> <img src="pic/n3.PNG"> </p> | <p align="center"> <img src="pic/n4.PNG"> </p> | <p align="center"> <img src="pic/n5.PNG"> </p> | <p align="center"> <img src="pic/n6.PNG"> </p> | <p align="center"> <img src="pic/n7.PNG"> </p> |
 
 ### DB 다운로드
-* 다운로드 [링크](https://drive.google.com/file/d/1AYEpejAB5jd2zi-vWayCQmDkQN-kKrvN/view?usp=sharing) (압축버전)
-* 다운로드 [링크](https://kor01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F11frxzBLp-2_krbjVLSozXXurbmuh40A8%3Fusp%3Dsharing&data=04%7C01%7Cjaemyunglee%40ncsoft.com%7Cfa5107f91fa14d8976cf08d8b2e9ec9f%7C91856527a4464990b48e37ca10f2ee8d%7C0%7C0%7C637456065049643905%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=9hP6MzZwdKSPD0Tk34N2cr3jELakiIYbhhaIiH7bzNw%3D&reserved=0) (미리보기 가능)
+* 다운로드 [링크](http://bit.ly/35CKiU0) (압축버전)
+* 다운로드 [링크](http://bit.ly/2XCpIPc) (미리보기 가능)
 
 <br/>
 
